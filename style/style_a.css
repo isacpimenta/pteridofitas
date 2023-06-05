@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+:root {
+    --cor1: #1D613E;
+    --cor2: #00612F;
+    --cor3: #00AD54;
+    --cor4: #00E06C;
+    --cor5: #45E692;
+    --cor6: #45E6AB;
+    --cor7: #45e6abc0;
+
+    --font1: 'Passion One', cursive;
+    --font2: 'Sriracha', cursive;
+    --font3: 'Open Sans', sans-serif;
+}
+
+main h2 {
+    font-size: 2.5em;
+}
+
+main h3 {
+    font-family: var(--font2);
+    font-size: 1.8em;
+    text-align: center;
+}
+
+main p {
+    margin-bottom: 40px;
+}
+
+.video {
+    background-color: var(--cor05);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 57%;
+
+    position: relative;
+}
+
+iframe {
+    position: absolute;
+    
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+#final {
+    text-align: center;
+}

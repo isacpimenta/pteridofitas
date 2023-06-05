@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+main p {
+    text-indent: 0%;
+}
+
+span {
+    color: red
+}
+
+div {
+    background-size: 100% 100%;
+
+    position: relative; /*Padrão */
+    height: 80vh;
+
+    padding: 10px;
+
+    margin-bottom: 5px;
+}
+
+iframe {
+    background-size: 100% 100%;
+
+    position: absolute; /*modificado*/
+    height: 540px;
+    width: 850px;
+    background-color: white;
+    
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%,-50%);
+}
